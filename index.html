@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#fbf8ff">
+    <meta name="description" content="A personal portfolio for Your Name.">
+    <title>Your Name | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="#home" aria-label="Your Name, home">YN<span>.</span></a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">
+        <span class="theme-icon" aria-hidden="true">☾</span>
+        <span class="theme-label">Dark mode</span>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero section-wrap" id="home" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> Available for new opportunities</p>
+          <h1 id="hero-title">Hello, I’m <span>Your Name.</span></h1>
+          <p class="hero-tagline">I turn thoughtful ideas into useful, beautiful digital experiences.</p>
+          <a class="text-link" href="#projects">Explore my work <span aria-hidden="true">↘</span></a>
+        </div>
+        <div class="hero-art" aria-label="Abstract lilac and pink flower illustration" role="img">
+          <div class="art-ring art-ring-one"></div>
+          <div class="art-ring art-ring-two"></div>
+          <div class="art-sun"></div>
+          <div class="art-stem"></div>
+          <div class="art-leaf"></div>
+          <div class="art-caption">A little color<br>goes a long way.</div>
+          <span class="art-sparkle sparkle-one">✳</span>
+          <span class="art-sparkle sparkle-two">✳</span>
+        </div>
+        <a class="scroll-cue" href="#about"><span></span> Scroll to explore</a>
+      </section>
+
+      <section class="about section-wrap" id="about" aria-labelledby="about-title">
+        <div class="section-heading">
+          <p class="eyebrow">A little introduction</p>
+          <h2 id="about-title">About me<span>.</span></h2>
+        </div>
+        <div class="about-content">
+          <p class="about-lead">I’m a <span>designer and developer</span> who loves making the web feel a little more human.</p>
+          <div class="about-detail">
+            <p>Write a few lines about what you do, what you care about, and the kind of work you love. This is your space to share the details that make your approach yours.</p>
+            <p>When I’m not making things for the web, you’ll find me exploring new places, collecting good ideas, or enjoying a very large cup of tea.</p>
+            <div class="skill-list" aria-label="Areas of focus">
+              <span>Creative direction</span>
+              <span>Web design</span>
+              <span>Front-end development</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects section-wrap" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading projects-heading">
+          <div>
+            <p class="eyebrow">Selected work</p>
+            <h2 id="projects-title">Things I’ve made<span>.</span></h2>
+          </div>
+          <p class="section-note">A few recent projects, made with curiosity and care.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <a class="project-image image-one" href="#contact" aria-label="Ask me about the Bloom Journal project">
+              <img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=900&q=85" alt="Soft pink flowers in the afternoon light" loading="lazy">
+              <span class="project-number">01</span>
+              <span class="image-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-meta"><span>Branding · Digital</span><span>2025</span></div>
+            <h3>Bloom Journal</h3>
+            <p>A gentle place to collect small moments and everyday inspiration.</p>
+          </article>
+          <article class="project-card">
+            <a class="project-image image-two" href="#contact" aria-label="Ask me about the Common Ground project">
+              <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=900&q=85" alt="A welcoming independent shop interior" loading="lazy">
+              <span class="project-number">02</span>
+              <span class="image-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-meta"><span>Web design · E-commerce</span><span>2024</span></div>
+            <h3>Common Ground</h3>
+            <p>An inviting online home for a neighborhood shop with a big heart.</p>
+          </article>
+          <article class="project-card">
+            <a class="project-image image-three" href="#contact" aria-label="Ask me about the Sunday Studio project">
+              <img src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&fit=crop&w=900&q=85" alt="A calm, sunlit creative workspace" loading="lazy">
+              <span class="project-number">03</span>
+              <span class="image-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-meta"><span>Art direction · Web</span><span>2024</span></div>
+            <h3>Sunday Studio</h3>
+            <p>A bright, flexible identity for a community of independent makers.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact section-wrap" id="contact" aria-labelledby="contact-title">
+        <div class="contact-mark" aria-hidden="true">✳</div>
+        <p class="eyebrow">Have a good one in mind?</p>
+        <h2 id="contact-title">Let’s make<br>something <span>meaningful.</span></h2>
+        <p class="contact-copy">Have a project, a question, or just want to say hello? My inbox is open.</p>
+        <a class="contact-button" href="mailto:hello@example.com">Get in touch <span aria-hidden="true">↗</span></a>
+        <p class="contact-email">hello@example.com</p>
+      </section>
+    </main>
+
+    <footer class="site-footer section-wrap">
+      <a class="wordmark" href="#home">YN<span>.</span></a>
+      <p>Made with care by Your Name · <span id="current-year"></span></p>
+      <a class="back-to-top" href="#home">Back to top ↑</a>
+    </footer>
+  </body>
+</html>
